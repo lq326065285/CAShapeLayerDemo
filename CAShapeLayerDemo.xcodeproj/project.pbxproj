@@ -15,6 +15,7 @@
 		F1F435111D58220C0045E659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F4350F1D58220C0045E659 /* LaunchScreen.storyboard */; };
 		F1F4351C1D58220C0045E659 /* CAShapeLayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F4351B1D58220C0045E659 /* CAShapeLayerDemoTests.m */; };
 		F1F435271D58220C0045E659 /* CAShapeLayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F435261D58220C0045E659 /* CAShapeLayerDemoUITests.m */; };
+		F1F435361D5822730045E659 /* CAShapeLayer+ViewMask.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F435351D5822730045E659 /* CAShapeLayer+ViewMask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F1F435221D58220C0045E659 /* CAShapeLayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAShapeLayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F435261D58220C0045E659 /* CAShapeLayerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerDemoUITests.m; sourceTree = "<group>"; };
 		F1F435281D58220C0045E659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1F435341D5822730045E659 /* CAShapeLayer+ViewMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+ViewMask.h"; sourceTree = "<group>"; };
+		F1F435351D5822730045E659 /* CAShapeLayer+ViewMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+ViewMask.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				F1F4350F1D58220C0045E659 /* LaunchScreen.storyboard */,
 				F1F435121D58220C0045E659 /* Info.plist */,
 				F1F435011D58220C0045E659 /* Supporting Files */,
+				F1F435341D5822730045E659 /* CAShapeLayer+ViewMask.h */,
+				F1F435351D5822730045E659 /* CAShapeLayer+ViewMask.m */,
 			);
 			path = CAShapeLayerDemo;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			files = (
 				F1F435091D58220C0045E659 /* ViewController.m in Sources */,
 				F1F435061D58220C0045E659 /* AppDelegate.m in Sources */,
+				F1F435361D5822730045E659 /* CAShapeLayer+ViewMask.m in Sources */,
 				F1F435031D58220C0045E659 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
